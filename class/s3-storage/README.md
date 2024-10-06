@@ -1,5 +1,3 @@
-# Working with S3
-
 # Storage and Transfer
 
 Amazon S3 will be the primary storage service for this course. Below are instructions
@@ -17,28 +15,13 @@ The AWS CLI is available through the pip installer:
 If you have administrator privileges type
 
 ```
-<<<<<<< HEAD
 pip install awscli
-=======
-git remote add upstream https://github.com/uvasds-systems/ds2002.git
-```
-2. Fetch from the upstream branch:
-```
-git fetch upstream
-```
-3. Merge your branch with the upstream branch.
-``` git merge upstream/main main
 ```
 
 Otherwise use
 
 ```
 pip install --user awscli
-
-git remote add upstream https://github.com/uvasds-systems/ds2002.git
-git fetch upstream
-git merge upstream/main main
-
 ```
 
 The project is open source, so you can also download the source at https://github.com/aws/aws-cli
@@ -189,4 +172,3 @@ s3 = boto3.client('s3')
 ## More Information about `boto3`
 
 Documentation is available [**here**](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html).
-
